@@ -1,0 +1,93 @@
+
+.root{
+  margin:0;
+  padding:0;
+}
+.Header-detail{
+  background-color: #323334;
+
+}
+.Header{
+  display:flex;
+  justify-content: space-between;
+  height:125px;
+  align-items: center;
+ padding:0px 30px;
+}
+.input{
+  background-color:#323334 ;
+  border: 1px solid red;
+  border-radius: 5px;
+  width:285px;
+  height:40px;
+  color:white;
+  
+}
+.input::placeholder{
+  color:white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btns{
+  background-color: #FF4343;
+  border-radius: 5px;
+  padding:6px 12px;
+border:none;
+margin:4px;
+}
+.btn-active{
+  background-color: rgb(253, 3, 3);
+  border-radius: 5px;
+  padding:6px 12px;
+border:none;
+margin:4px;
+}
+.food-container{
+  display: flex;
+  min-height: 303px;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  background:url("public/bg.png"), radial-gradient(
+    90.16% 143.01% at 15.32% 21.04%,
+    rgba(165, 239, 255, 0.2) 0%,
+    rgba(110, 191, 244, 0.0447917) 77.08%,
+    rgba(70, 144, 213, 0) 100%
+    
+  );
+ color:white;
+  background-size: cover;
+  padding:20px;
+
+}
+.FoodCard{
+  width: 340px;
+  height:200px;
+  border:0.66px solid rgba(255, 255, 255, 0);
+    background-color: radial-gradient(
+      80.69% 208.78% at 108.28% 112.58%,
+      #eabfff 0%,
+      rgba(135, 38, 183, 0) 100%)
+    ,  radial-gradient(
+      80.38% 222.5% at -13.75% -12.36%,
+      #98f9ff 0%,
+      rgba(255, 255, 255, 0) 90%
+    ); 
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(13.1842px);
+    border-radius: 5px;
+    
+    display: flex;
+   
+}
+.price{
+  float: right;
+    padding-right: 17px;
+    background-color: red;
+    border-radius: 4px;
+    padding-left: 9px; 
+}
+.text{
+  margin-bottom: -16px;
+}
